@@ -1,0 +1,20 @@
+{
+  "name": "simple-counter-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.91.0"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.91.0",
+    "@serverless-stack/cli": "0.9.17",
+    "@serverless-stack/resources": "0.9.17"
+  }
+}

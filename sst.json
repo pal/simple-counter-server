@@ -1,0 +1,6 @@
+{
+  "name": "simple-counter-server",
+  "stage": "dev",
+  "region": "us-east-1",
+  "lint": true
+}
