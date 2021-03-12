@@ -13,8 +13,12 @@
     "@aws-cdk/assert": "1.91.0"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-authorizers": "1.91.0",
+    "@aws-cdk/aws-iam": "1.91.0",
     "@aws-cdk/core": "1.91.0",
+    "@aws-sdk/client-ssm": "^3.8.1",
     "@serverless-stack/cli": "0.9.17",
-    "@serverless-stack/resources": "0.9.17"
+    "@serverless-stack/resources": "0.9.17",
+    "aws-sdk": "^2.862.0"
   }
 }
